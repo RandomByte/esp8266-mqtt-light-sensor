@@ -25,9 +25,9 @@
 
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
-#include "_constants.h"
 
-// Update these with values suitable for your network.
+// Copy over "_constants.h.example" to "_constants.h" and update it with values suitable for your network
+#include "_constants.h"
 
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASSWORD;
