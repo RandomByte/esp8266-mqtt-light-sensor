@@ -33,3 +33,4 @@
 *.su
 
 .DS_Store
+_constants.h
